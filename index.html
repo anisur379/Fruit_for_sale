@@ -1,0 +1,375 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRUIT FOR SALE</title>
+    <style>
+        body {
+            color: darkgreen;
+            background-color: rgb(242, 219, 223);
+        }
+
+        .picking-top {
+            display: flex;
+            margin-left: 100px;
+        }
+
+        .picking-apple {
+            width: 40%;
+            margin-left: 220px;
+        }
+
+        .picking-apple h1 {
+            width: 80%;
+        }
+
+        .picking-apple h4 {
+            font-size: 10px;
+            font-weight: 700;
+            width: 50%;
+            margin-bottom: 40px;
+        }
+
+        .picking-apple a {
+            text-decoration: none;
+            background-color: red;
+            border: 10px solid red;
+            border-radius: 12px;
+            color: white;
+        }
+
+        .picking-image {
+            width: 50%;
+            margin-left: 40px;
+            margin-right: 200px;
+        }
+
+        .top1-section {
+            align-items: center;
+            justify-content: center;
+            margin-top: 70px;
+        }
+
+        .family {
+            text-align: center;
+            justify-content: center;
+        }
+
+        .top-bottle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .top-bottle img {
+            height: 200px;
+            width: 200px;
+            align-items: center;
+        }
+
+        .drink-image {
+            margin-left: 45px;
+        }
+
+        .learn {
+            margin-left: 45px;
+        }
+
+        .drink-bottle {
+            box-shadow: -2px 5px 20px;
+            width: 300px;
+            height: 300px;
+            margin-right: 30px;
+            background-color: darkgreen;
+            color: white;
+            border-radius: 10px;
+        }
+
+        .drink-bottle:hover {
+            background-color: red;
+        }
+
+        .drink-bottle:hover a {
+            background-color: lightgreen;
+            color: black;
+            border: 10px solid lawngreen;
+            border-radius: 10px;
+        }
+
+        .drink-bottle a {
+            text-decoration: none;
+            background-color: red;
+            border: 10px solid red;
+            border-radius: 12px;
+            color: white;
+        }
+
+        .mid-apple {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        .mid-paragraph {
+            width: 30%;
+            margin-top: 100px;
+            margin-left: 100px;
+        }
+
+        .mid-apple a {
+            text-decoration: none;
+            background-color: red;
+            border: 10px solid red;
+            border-radius: 12px;
+            color: white;
+        }
+
+        .product {
+            justify-content: center;
+            text-align: center;
+        }
+
+        .title {
+            justify-content: center;
+            text-align: center;
+        }
+
+        .spirits-main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .spirits-main a {
+            text-decoration: none;
+            background-color: red;
+            border: 10px solid red;
+            border-radius: 12px;
+            color: white;
+        }
+
+        .natural img {
+            height: 250px;
+            width: 250px;
+        }
+
+        .natural {
+            box-shadow: -2px 5px 20px;
+            margin-right: 20px;
+            height: 400px;
+            width: 300px;
+            border-radius: 10px;
+            background-color: rgb(217, 129, 137);
+        }
+
+        .natural-bottom {
+            margin-left: 30px;
+        }
+
+        .natural-bottom span {
+            text-align: center;
+            justify-content: center;
+            margin-left: 90px;
+            background-color: ;
+        }
+
+        .order {
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        .mid-paragraph p {
+            padding-bottom: 30px;
+        }
+
+        .ul-1 {
+            display: flex;
+        }
+
+        .ul-1 li {
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        li a {
+            margin-right: 40px;
+            border-radius: 10px;
+            border: 12px solid rgb(84, 141, 102);
+            background-color: rgb(175, 228, 175);
+            color: black;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            margin-right: 40px;
+            border-radius: 10px;
+            border: 12px solid rgb(175, 228, 175);
+            background-color: red;
+            color: white;
+            text-decoration: none;
+        }
+
+        nav {
+            margin-left: 280px;
+        }
+
+        #delivery {
+            margin-right: 40px;
+            border-radius: 10px;
+            border: 12px solid red;
+            background-color: red;
+            color: white;
+            text-decoration: none;
+        }
+
+        .login {
+            display: block;
+            justify-content: center;
+            text-align: center;
+            width: 40%;
+            align-items: center;
+            margin-left: 450px;
+            border: 2px solid black;
+            margin-top: 50px;
+            background-color: cadetblue;
+        }
+
+        .login p {
+            color: white;
+        }
+
+        .login h1 {
+            width: 50%;
+            color: white;
+            border: 10px soli orange;
+            border-radius: 8px;
+            background-color: orange;
+            justify-content: center;
+            margin-left: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul class="ul-1">
+            <li><a id="delivery" href="https://www.facebook.com/anisur4201">DELIVERY</a></li>
+            <li><a href="https://www.facebook.com/anisur4201">ABOUT</a></li>
+            <li><a href="https://www.facebook.com/anisur4201">VISIT</a></li>
+            <li><a href="https://www.facebook.com/anisur4201">APPLES</a></li>
+            <li><a href="https://www.facebook.com/anisur4201">PRODUCTS</a></li>
+            <li><a href="https://www.facebook.com/anisur4201">NEWS</a></li>
+            <li><a href="https://www.facebook.com/anisur4201">EVENTS</a></li>
+        </ul>
+    </nav>
+    <section class="top1-section">
+        <div class="picking-top">
+            <div class="picking-apple">
+                <h1>APPLES AVAILABLE FOR PICKING OR SHIPPING</h1>
+                <h4>YOU WILL GET ALL OF THE PRODCUCTS IN CHEAPEST PRICE.WHY YOU ARE WAITIN?</h4>
+                <a href="https://www.facebook.com/anisur4201">APPLE PRICE</a>
+            </div>
+            <div class="picking-image">
+                <img src="apple1.png" alt="">
+            </div>
+        </div>
+    </section>
+    <h1 class="Family">OUR FAMILY OF BRANDS</h1>
+    <section class="top2-section">
+        <div class="top-bottle">
+            <div class="drink-bottle">
+                <div class="drink-image">
+                    <img src="bottle.jpg" alt="">
+                </div>
+                <div class="learn">
+                    <p>APPLE AND NATURAL DRINKS</p>
+                    <a href="https://www.facebook.com/anisur4201">LEARN MORE</a>
+                </div>
+            </div>
+            <div class="drink-bottle">
+                <div class="drink-image">
+                    <img src="bottle1.jfif" alt="">
+                </div>
+                <div class="learn">
+                    <p>HARD CIDER SPIRITS - WIN</p>
+                    <a href="https://www.facebook.com/anisur4201">LEARN MORE</a>
+                </div>
+            </div>
+            <div class="drink-bottle">
+                <div class="drink-image">
+                    <img src="apple8.png" alt="">
+                </div>
+                <div class="learn">
+                    <p>CANNABIS RESEARCH & DEVELOPMENT</p>
+                    <a href="https://www.facebook.com/anisur4201">LEARN MORE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="mid-apple">
+            <div>
+                <img src="apple10.png" alt="">
+            </div>
+            <div class="mid-paragraph">
+                <h1>100 YEARS OF QUALITY</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, rem exercitationem. Incidunt,
+                    doloremque officia ex nobis sed iure deserunt laborum enim ad, saepe, corrupti illum ipsum
+                    perferendis est quasi asperiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Recusandae culpa ipsa explicabo soluta totam iusto quod consectetur aliquam sed, non odit
+                    perferendis autem impedit ut, voluptatem vitae placeat numquam iste?</p>
+                <a href="https://www.facebook.com/anisur4201">LEARN MORE</a>
+            </div>
+        </div>
+    </section>
+    <h1 class="product">OUR PRODUCT</h1>
+    <h4 class="title">IF YOU WANT THOSE PRODUCT FROM HERE CLICK ORDER NOW</h4>
+    <section class="spirits-section">
+        <div class="spirits-main">
+            <div class="natural">
+                <img src="apple2.png" alt="">
+                <div class="natural-bottom">
+                    <p>APPLE AND NATURAL DRINKS</p>
+                    <span>$129.0</span>
+                </div>
+                <div class="order">
+                    <a href="https://www.facebook.com/anisur4201">ORDER NOW</a>
+                </div>
+            </div>
+            <div class="natural">
+                <img src="images__10_-removebg-preview.png" alt="">
+                <div class="natural-bottom">
+                    <p>HARD CIDER SPIRITS - WIN</p>
+                    <span>$320.0</span>
+                </div>
+                <div class="order">
+                    <a href="https://www.facebook.com/anisur4201">ORDER NOW</a>
+                </div>
+            </div>
+            <div class="natural">
+                <img src="images__9_-removebg-preview.png" alt="">
+                <div class="natural-bottom">
+                    <p>CANNABIS RESEARCH & DEVELOPMENT</p>
+                    <span>$126.0</span>
+                </div>
+                <div class="order">
+                    <a href="https://www.facebook.com/anisur4201">ORDER NOW</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="login">
+            <h1>LOGIN HERE</h1>
+            <p>Email : <input type="email" name="" id="" placeholder="Please enter your Email" required></p>
+            <p>Password :<input type="password" name="" placeholder="Please enter your Password" id="" required></p>
+            <input type="button" value="Sumbit Here" aria-required="false">
+        </div>
+    </section>
+</body>
+
+</html>
